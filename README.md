@@ -19,7 +19,7 @@ Kalkulator Nilai Akhir Mahasiswa adalah sebuah program yang digunakan untuk meng
 
 ## Tech Stack
 
-Program ini dibuat menggunakan bahasa Python dengan struktur data dictionary untuk menyimpan informasi nilai mahasiswa. Untuk struktur kontrol, digunakan perulangan while True agar pengguna dapat memasukkan data sebanyak mungkin, serta percabangan if-elif-else untuk menentukan grade dan status kelulusan mahasiswa.
+Program ini dibuat menggunakan bahasa Python dengan struktur data dictionary untuk menyimpan informasi nilai mahasiswa. Untuk struktur kontrol, digunakan perulangan `while True` agar pengguna dapat memasukkan data sebanyak mungkin, serta percabangan `if-elif-else` untuk menentukan grade dan status kelulusan mahasiswa.
 
 Library yang digunakan dalam program ini meliputi:
 - **statistics**, digunakan untuk perhitungan statistik seperti rata-rata dan median.
