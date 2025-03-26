@@ -33,8 +33,7 @@ Library yang digunakan dalam program ini meliputi:
 3. Install library colorama dengan menjalankan perintah:
    ```sh
    pip install colorama
-   ```
 4. Jalankan program pada Code Editor dengan perintah:
    ```sh
-   python nama_file.py
+   python Tugas-2-Praktikum-KB.py.py
    
