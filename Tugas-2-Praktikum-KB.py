@@ -57,5 +57,22 @@ for mahasiswa, nilai in nilai_mahasiswa.items():
     print("Status: ", warna + nilai["Status"] + Style.RESET_ALL)
     print("--------------------------------------")
 
-sys.exit()
+nilai_akhir_list = [info["Nilai Akhir"] for info in nilai_mahasiswa.values()]
 
+if nilai_akhir_list:
+    rata_rata = statistics.mean(nilai_akhir_list)
+    median = statistics.median(nilai_akhir_list)
+    jumlah_mahasiswa = len(nilai_akhir_list)
+    nilai_tertinggi = max(nilai_akhir_list)
+    nilai_terendah = min(nilai_akhir_list)
+
+    print("\n=====================================")
+    print("=        Statistik Nilai Akhir      =")
+    print("=====================================")
+    print("Jumlah Mahasiswa: ", jumlah_mahasiswa)
+    print("Rata-rata: ", round(rata_rata, 2))
+    print("Median   : ", round(median, 2))
+    print("Nilai Tertinggi: ", nilai_tertinggi)
+    print("Nilai Terendah : ", nilai_terendah)
+    
+sys.exit()
